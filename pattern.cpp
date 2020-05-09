@@ -21,7 +21,9 @@ int main()
 {
  int a=1,z=1;
   int n;
+  cout<<"Enter no. of lines in pattern to be printed: ";
   cin>>n;
+
   for(int i=1;i<=n;i++)
   {
     int x=i;
