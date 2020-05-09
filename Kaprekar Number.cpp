@@ -1,4 +1,16 @@
-//C program to check if a number is Kaprekar number or not  
+/*C program to check if a number is Kaprekar number or not
+A Number is a Kaprekar number if the representation of its square in that base can be split into two parts,
+such that they add up to the original number. 
+
+example- 1) 297
+	    279^2 = 88209
+	 	    88 + 209 = 297
+	 2) 4879
+	    4879^2 = 23804641
+	    	     238 + 04641 = 4897
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef unsigned long long ull;
