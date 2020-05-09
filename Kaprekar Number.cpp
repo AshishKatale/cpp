@@ -1,4 +1,5 @@
-/*C program to check if a number is Kaprekar number or not
+/*
+C++ program to check if a number is Kaprekar number or not
 A Number is a Kaprekar number if the representation of its square in that base can be split into two parts,
 such that they add up to the original number. 
 
