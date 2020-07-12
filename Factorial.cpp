@@ -7,20 +7,20 @@ using namespace std;
 void fact(int n)
 {
     string factorial = "1";
-    long car = 0;
+    long carry = 0;
     while (n)
     {
         int a = n;
         for (char &x : factorial)
         {
-            long z = (x - 48) * a + car;
+            long z = (x - 48) * a + carry;
             x = z % 10 + 48;
-            car = z / 10;
+            carry = z / 10;
         }
-        while (car)
+        while (carry)
         {
-            factorial += car % 10 + 48;
-            car /= 10;
+            factorial += carry % 10 + 48;
+            carry /= 10;
         }
         n--;
     }
