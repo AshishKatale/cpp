@@ -1,10 +1,11 @@
-// // C++ program to remove spaces using stringstream
-// #include <iostream>
-// #include <algorithm>
-// #include <string>
-// #include <vector>
-// #include <sstream>
-#include <bits/stdc++.h>
+// C++ Program to find large Factorials.
+// eg. Factorial of 125 is : 188267717688892609974376770249160085759540364871492425887598231508353156331613598866882932889495923133646405445930057740630161919341380597818883457558547055524326375565007131770880000000000000000000000000000000
+
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <sstream>
 using namespace std;
 void fact(int n)
 {
@@ -32,9 +33,10 @@ void fact(int n)
 
 int main()
 {
-    cout << "Enter a Positive Integer :";
+    cout << "Enter a Positive Integer : ";
     int n;
     cin >> n;
+    cout << "Factorial of " << n << " is : ";
     fact(n);
     return 0;
 }
