@@ -10,10 +10,9 @@ void fact(int n)
     long carry = 0;
     while (n)
     {
-        int a = n;
         for (char &x : factorial)
         {
-            long z = (x - 48) * a + carry;
+            long z = (x - 48) * n + carry;
             x = z % 10 + 48;
             carry = z / 10;
         }
