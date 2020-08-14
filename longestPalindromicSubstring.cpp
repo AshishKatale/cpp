@@ -1,3 +1,7 @@
+/*
+Enter string: asdfdsaaaadssdaaaw
+longest palindromic substring: aaadssdaaa
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -23,6 +27,7 @@ int pal(const string &s, int i)
 
 int main()
 {
+    cout << "Enter string: ";
     string s;
     int l = 0;
     int n = 0;
@@ -36,5 +41,5 @@ int main()
             n = i;
         }
     }
-    cout << s.substr(n - ((l - 1) / 2), l);
+    cout << "longest palindromic substring: " << s.substr(n - ((l - 1) / 2), l);
 }
