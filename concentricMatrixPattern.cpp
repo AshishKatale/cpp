@@ -1,8 +1,22 @@
+/*
+Enter no of layers:5
+5  5  5  5  5  5  5  5  5  
+5  4  4  4  4  4  4  4  5  
+5  4  3  3  3  3  3  4  5  
+5  4  3  2  2  2  3  4  5  
+5  4  3  2  1  2  3  4  5  
+5  4  3  2  2  2  3  4  5  
+5  4  3  3  3  3  3  4  5  
+5  4  4  4  4  4  4  4  5  
+5  5  5  5  5  5  5  5  5
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
+    cout << "Enter no of layers:";
     int s;
     cin >> s;
     int n = s * 2 - 1;
